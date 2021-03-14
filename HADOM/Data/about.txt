@@ -11,7 +11,7 @@
                 </h2>
                 <p>
                     Tech 360 is a personal blogging site designed and developed by <strong>Md. Hasibul Haque</strong>
-                    under project <strong>HADOM</strong>.
+                    under project <strong>Light House</strong>.
                     Tech 360 is currently privately owned. But in future Tech 360 will be avialable as open source project.
                 </p>
 
