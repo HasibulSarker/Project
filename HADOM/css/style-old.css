@@ -30,8 +30,8 @@ body {
     background-color: #ffe4c4;
     border:  3px solid #008000;
 }
-#container{
-    box-shadow: 0;
+#container {
+    box-shadow: none;
 }
 
 /* Responsive Deisigns */
