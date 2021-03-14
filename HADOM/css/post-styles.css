@@ -1,0 +1,194 @@
+/****** Single Page Layout Designs *****/
+
+.cover-common {
+    margin-left: auto;
+    margin-right: auto;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.bloginfo {
+    margin-left: 8%;
+    display: inline-block;
+}
+.author {
+    color: #008000;
+    display: inline-block;
+}
+.blogtype {
+    font-weight: 600;
+    background-color: #fffafa;
+    margin-right: 30px;
+    animation-name: blinker;
+    animation-duration: .5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@keyframes blinker {
+    0% {
+        color: #ffff00;
+    }
+    100% {
+        color: #000000;
+    }
+}
+.mainblog {
+    margin-left: 6%;
+    margin-right: 6%;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+.paragraph {
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+.note {
+    text-align: justify;
+    color: #ff0000;
+    font-style: oblique;
+    text-decoration: overline;
+}
+/************ Responsive Deisigns ***************/
+
+@media (min-width: 300px)  {
+    .mainblog {
+        font-size: 16.5px;
+        text-align: left;
+    }
+    .title {
+        font-size: 1.3em;
+        margin: 25px 10px;
+        text-align: center;
+        line-height: 35px;
+    }
+    .author {
+        margin-left: 9%;
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+    .cover {
+        background-image: url("../Images/Post_img/top-1/Huawei-sz-2.png");
+        height: 143px;
+        width: 291px;
+    }
+    .cover-t {
+        background-image: url("../Images/Post_img/top-2/iphone-sz-2.png");
+        height: 143px;
+        width: 291px;
+    }
+}
+@media (min-width: 408px) {
+    .cover {
+        background-image: url("../Images/Post_img/top-1/Huawei-sz-3.png");
+        height: 154px;
+        width: 313px;
+    }
+    .cover-t {
+        background-image: url("../Images/Post_img/top-2/iphone-sz-3.png");
+        height: 154px;
+        width: 313px;
+    }
+}
+@media (max-width: 320px) {
+    .cover {
+        background-image: url("../Images/Post_img/top-1/Huawei-sz-1.png");
+        height: 124px;
+        width: 252px;
+    }
+    .cover-t {
+        background-image: url("../Images/Post_img/top-2/iphone-sz-1.png");
+        height: 124px;
+        width: 252px;
+    }
+    .title {
+        font-size: 1.2em;
+        text-align: center;
+        line-height: 33px;
+    }
+    .author {
+        font-size: 14px;
+    }
+    
+}
+@media (min-width: 440px) {
+    .cover {
+        background-image: url("../Images/Post_img/top-1/Huawei-sz-4.png");
+        height: 167px;
+        width: 340px;
+    }
+    .cover-t {
+        background-image: url("../Images/Post_img/top-2/iphone-sz-4.png");
+        height: 167px;
+        width: 340px;
+    }
+}
+
+@media (min-width: 563px) {
+    .cover {
+        background-image: url("../Images/Post_img/top-1/Huawei-sz-5.png");
+        height: 186px;
+        width: 378px;
+    }
+    .cover-t {
+        background-image: url("../Images/Post_img/top-2/iphone-sz-5.png");
+        height: 186px;
+        width: 378px;
+    }
+}
+@media (min-width: 639px) {
+    .cover {
+        background-image: url("../Images/Post_img/top-1/Huawei-sz-6.png");
+        height: 242px;
+        width: 430px;
+    }
+    .cover-t {
+        background-image: url("../Images/Post_img/top-2/iphone-sz-6.png");
+        height: 242px;
+        width: 430px;
+    }
+}
+
+@media (min-width: 704px) {
+    .cover {
+        background-image: url("../Images/Post_img/top-1/Huawei-sz-7.png");
+        height: 270px;
+        width: 480px;
+    }
+    .cover-t {
+        background-image: url("../Images/Post_img/top-2/iphone-sz-7.png");
+        height: 270px;
+        width: 480px;
+    }
+}
+@media (min-width: 768px) {
+    .mainblog {
+        font-size: 18px;
+        text-align: justify;
+    }
+    .author {
+        font-size: 17px;
+    }
+    .title {
+        font-size: 1.7em;
+        margin-bottom: 30px;
+    }
+
+    
+}
+@media (min-width: 834px) {
+    .cover {
+        background-image: url("../Images/Post_img/top-1/Huawei-orgi.png");
+        height: 279px;
+        width: 567px;
+       }
+   .cover-t {
+     background-image: url("../Images/Post_img/top-2/iphone-orgi.png");
+     height: 279px;
+     width: 567px;
+    }
+    .author {
+        margin-left: 18.7%;
+    }
+}
+
+ /********* End Of Responsive Designs  *********/

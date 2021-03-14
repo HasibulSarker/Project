@@ -1,0 +1,31 @@
+<div class="vanish">
+    <div class="bloginfo">
+        <span class="blogtype">
+            TOP TECHS
+        </span>
+        <span>
+            March 11, 2021
+        </span>
+    </div>
+    <h1 class="title">
+        Iphone 12 doesn't support third party repair !
+    </h1>
+    <span class="author">
+        By Hasibul Sarker
+    </span>
+        <div class="cover-t cover-common"></div>
+        <article class="mainblog">
+            <p class="paragraph">
+                After exhaustive testing, comparing notes with multiple repair technicians, and reviewing leaked Apple training documents, we’ve found that the iPhone 12 camera is entirely unreliable when swapped between iPhones.
+            </p>
+            <p class="paragraph">
+                This latest fault, along with indications from Apple’s repair guides, makes it more clear than ever: Apple, by design or neglect or both, is making it extremely hard to repair an iPhone without their blessing. This may be a bug that Apple eventually fixes. There is even precedent for iPhone parts misbehaving when swapped between phones. 
+            </p>
+            <p class="paragraph">
+                But it is also possible that Apple is planning on locking out all unauthorized iPhone camera and screen repairs. Apple’s internal training guides tell authorized technicians that, starting with the 12 and its variants, they will need to run Apple’s proprietary, cloud-linked System Configuration app to fully repair cameras and screens.
+            </p>
+            <p class="paragraph note">
+                Note : This article was coppied from IFIXIT. I'm not using this for commercial purpose. I'm using for development purpose.
+            </p>
+        </article>
+</div>

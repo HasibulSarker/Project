@@ -1,0 +1,392 @@
+/********** Main Layout Designs *********/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #ffffff;
+    font-family: 'Goldman', cursive;
+}
+#header {
+    background-color: #ffff00;
+    padding-top: 10px;
+    padding-bottom: 15px;
+   
+}
+.link {
+    text-decoration: none;
+    color: #000000;
+    
+}
+.navbar:hover {
+    background-color: #0000ff;
+    color: #ffffff;
+}
+.navbar:active {
+    background-color:  #0000ff;
+    color: #ffffff;
+}
+#navbardiv {
+    position: sticky;
+    top: 0;
+    font-size: 21px;
+    background-color: #ffffe0;
+    padding: 17px;
+    border-top: .1px solid #61122f;
+    border-bottom: .1px solid #61122f;
+}
+.navbar {
+    color: #000000;
+    padding-left: 7px;
+    padding-right: 7px; 
+    margin: 50px;
+    border: 2px solid #ffff00;
+    border-radius: 5px;
+    background-color: #b0c4de;
+}
+#navspan {
+    display: block;
+    text-align: center;
+}
+#container {
+    box-shadow: 3px 2px 8px 8px #b0c4de;
+    font-family: 'Chakra Petch', sans-serif;
+    text-align: justify;
+    margin-top: 50px;
+    margin-bottom: 70px;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: #00ffff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 3px;
+}
+.heading {
+    margin-top: 25px;
+    margin-bottom: 40px;
+    text-align: center;
+    line-height: 31px;
+}
+.sect {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    line-height: 26px;
+    background-color: #ffe4c4;
+}
+#footer {
+    padding: 5px;
+    background-color: #b0c4de;
+    border-top: 5px solid #ffff00;
+    border-bottom: 5px solid #ffff00;
+    text-align: center;
+    color: #000000;
+}
+.margin {
+    margin-right: 20px;
+}
+.slidedown {
+    margin-top: 40px;
+}
+.copywrite {
+    margin-top: 17px;
+    margin-bottom: 25px;
+}
+.madewith {
+    font-size: 16.5px;
+    margin-top: 20px;
+    line-height: 30px;
+
+}
+.space {
+    line-height: 40px;
+    font-size: 16px;
+}
+.sect:hover {
+     box-shadow: 0 0 80px #ff0000;
+     
+}
+.center {
+    text-align: center;
+
+}
+.bigfont {
+    font-size: 20px;
+}
+.about {
+    padding: 17px;
+}
+.round {
+    border-radius: 50%;
+    animation-name: radious;
+    animation-duration: 1.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+}
+@keyframes radious {
+    0% {
+        border-radius: 0;
+    }
+    100% {
+        border-radius: 50%;
+    }
+}
+.lighttxt {
+    opacity: .44;
+}
+.btnwrapper {
+    line-height: 29px;
+    margin-top: 11px;
+}
+.innerbtn {
+    display: inline-block;
+    color: #0000ff;
+    background-color: #d87093;
+    border-radius: 5px;
+    padding-bottom: 7px;
+}
+.btn {
+    background-color: #fffafa;
+    border:  2px solid #ffff00;
+    padding: 2px;
+    border-radius: 5px;
+}
+.innerbtn:active {
+    padding-top: 7px;
+    padding-bottom: 0;
+}
+.vanish {
+    animation-name: vanisher;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+}
+@keyframes vanisher {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+.thumb-common {
+    background-repeat: no-repeat;
+    background-position: center;
+    width: auto;
+}
+
+/********* Responsive Deisigns *********/
+
+@media (min-width: 300px)  {
+    .navbar {
+        margin: 10px;
+        font-size: 17px;
+        padding: 4px;
+    }
+    #navbardiv {
+        padding: 15px;
+    }
+    #container {
+        margin-left: 6%;
+        margin-right: 6%;
+        border-radius: 5px;
+    }
+    .sect {
+        font-size: 16.5px;
+        margin-left: 7%;
+        margin-right: 7%;
+        border-radius: 7px;
+        padding: 15px;
+        border: 3px double #ffc0cb;
+    }
+    .thumb {
+        background-image: url("../Images/small/th3.png");
+        height: 195px;
+        
+     }
+    .thumb2 {
+        background-image: url("../Images/small/iphone2.png");
+        height: 195px;
+        
+     }
+     .img2 {
+        display: none;
+    }
+}
+
+@media (max-width: 360px) {
+    .navbar {
+        margin: 7.2px;
+        font-size: 17.5px;
+    }
+}
+
+@media (max-width: 320px) {
+    .navbar {
+        margin: 3.1px;
+        font-size: 17px;
+    }
+    .thumb {
+        background-image: url("../Images/small/th2.png");
+        height: 140px;
+    }
+    .thumb2 {
+        background-image: url("../Images/small/iphone3.png");
+        height: 140px;
+    }
+    .img {
+        display: none;
+    }
+    .img2 {
+        display: inline;
+    }
+    
+}
+
+@media (min-width: 480px) {
+    .navbar {
+        margin: 10px;
+        font-size: 16px;
+        padding: 5px;
+    }
+    
+    
+}
+
+@media (min-width: 481px) {
+    .navbar {
+        margin: 19px;
+    }
+    #container {
+        margin-left: 12%;
+        margin-right: 12%;
+    }
+     .sect {
+        font-size: 17px;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-left: 15%;
+        margin-right: 15%;
+        border: 3px solid #ffc0cb;
+     }
+    .btnwrapper {
+        line-height: 12px;
+        margin-top: 18px;
+    }
+   .btn:hover {
+       background-color: #da70d6;
+       color: #ffff00;
+       cursor: pointer;
+   }
+   .btn {
+       color: #f5f5f5;
+       background-color: #000000;
+       border: 2px solid #fffafa;
+   }
+}
+
+@media (min-width: 662px) {
+    .thumb {
+        background-image: url("../Images/big/th.png");
+        height: 200px;
+        
+     }
+    .thumb2 {
+        background-image: url("../Images/big/iphone.png");
+        height: 200px;
+        
+     }
+    .sect {
+        padding: 25px;
+     }
+    #container {
+        box-shadow: 3px 2px 8px 8px #61122f;
+    }
+}
+
+@media (min-width: 768px) {
+    .sect {
+        margin-left: 18%;
+        margin-right: 18%;
+        
+    }
+    .navbar {
+        margin: 20px;
+        
+    }
+
+    
+}
+
+@media (min-width: 834px) {
+    .navbar {
+        margin: 25px;
+        font-size: 17px;
+  }
+  #container {
+    margin-left: 17%;
+    margin-right: 17%;
+}
+.sect {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+}
+
+@media (min-width: 1024px) {
+    #container {
+        margin-left: 17%;
+        margin-right: 17%;
+    }
+    .sect {
+        margin-left: 22%;
+        margin-right: 22%;
+    }
+    .thumb {
+        height: 250px;
+        
+     }
+    .thumb2 {
+        height: 250px;
+     }
+     .navbar {
+        font-size: 20px;
+     }
+}
+
+@media (min-width: 1100px) {
+    .sect {
+        margin-left: 24%;
+        margin-right: 24%;
+    }
+    .navbar {
+        margin: 30px;
+    }
+}
+    @media (min-width: 1200px) { 
+    .navbar {
+        margin: 40px;
+        font-size: 20px;
+        padding-left: 7px;
+        padding-right: 7px;
+    }
+    #container {
+        max-width: 920px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .sect {
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+ }
+
+ @media (min-width: 1300px) { 
+    .sect {
+        margin-left: 26%;
+        margin-right: 26%;
+    }
+ }
+
+ /********** End Of Responsive Designs  ************/

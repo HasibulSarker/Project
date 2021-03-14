@@ -1,0 +1,32 @@
+<div class="vanish">
+    <div class="bloginfo">
+        <span class="blogtype">
+            TOP TECHS
+        </span>
+        <span>
+            March 8, 2021
+        </span>
+    </div>
+    <h1 class="title">
+        Google banned Huawei : Everything you need to know.
+    </h1>
+    <span class="author">
+        By Hasibul Sarker
+    </span>
+        <div class="cover cover-common"></div>
+        <article class="mainblog">
+            <p class="paragraph">
+                If you’ve been following the tech industry over the past year, you no doubt know that Huawei is in a heap of trouble. Since May of 2019, the Chinese company has been under fire from the United States government, resulting in what is colloquially referred to as the “Huawei ban.” This ongoing battle has forced Huawei to drastically change its business practices.
+            </p>
+            <p class="paragraph">
+                If you are curious as to how the Huawei-US ban came to be, the details surrounding the ban, and what it means for Huawei going forward, this is the place to be.
+                Below, you’ll find all the integral info related to the ban. We’ve also got some helpful tips specifically related to Huawei’s smartphones and how the ban affects both current and future handsets.
+            </p>
+            <p class="paragraph">
+                Editor’s note: This Huawei ban summary is current as of February 2021. Since this is an ongoing situation, we will update it with new content regularly. However, for the most up-to-date info on Huawei, we advise you to check our latest Huawei news articles
+            </p>
+            <p class="paragraph note">
+                Note : This article was coppied from android authority. I'm not using this for commercial purpose. I'm using for development purpose.
+            </p>
+        </article>
+</div>
