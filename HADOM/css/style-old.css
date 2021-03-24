@@ -1,4 +1,4 @@
-/* Main Layout Designs */
+/********** Main Layout Designs ***********/
 
 body {
     background-color: #61122f;
@@ -17,6 +17,7 @@ body {
 }
 #navbardiv {
     background-color: #fffafa;
+    border: none;
 }
 .navbar {
     color: #ffff00;
@@ -33,8 +34,16 @@ body {
 #container {
     box-shadow: none;
 }
+#footer {
+    padding: 5px;
+    background-color: #000000;
+    border-top: 5px solid #fffafa;
+    border-bottom: 5px solid #fffafa;
+    text-align: center;
+    color: #0000ff;
+}
 
-/* Responsive Deisigns */
+/********* Responsive Deisigns **********/
 
 @media (min-width: 300px)  {
     .sect {
@@ -49,4 +58,4 @@ body {
      }
 }
 
- /* End Of Responsive Designs  */
+/********** End Of Responsive Designs  **********/

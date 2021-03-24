@@ -1,18 +1,18 @@
-<div class="center space about bigfont vanish">
-            <h1 class="heading">
-                About Us
-            </h1>
-            <div>
-                <img class="img round" src="Images/Hasibul-b.jpeg" alt="image">
-                <img class="img2 round" src="Images/Hasibul-s.jpeg" alt="image">
-            </div>
-                <h2 class="heading">
-                    Md. Hasibul Haque
-                </h2>
-                <p>
-                    Tech 360 is a personal blogging site designed and developed by <strong>Md. Hasibul Haque</strong>
-                    under project <strong>Light House</strong>.
-                    Tech 360 is currently privately owned. But in future Tech 360 will be avialable as open source project.
-                </p>
+<div class="center space about bigfont">
+    <h1 class="heading">
+        About Us
+    </h1>
+    <div>
+        <img class="img round" src="Images/Hasibul-b.jpeg" height="250px" width="250px" alt="image">
+        <img class="img2 round" src="Images/Hasibul-s.jpeg" height="200px" width="200px" alt="image">
+    </div>
+        <h2 class="heading">
+            Md. Hasibul Haque
+        </h2>
+        <p>
+            Tech 360 is a personal blogging site designed and developed by <strong>Md. Hasibul Haque</strong>
+            under project <strong>Light House</strong>.
+            Tech 360 is currently privately owned. But in future Tech 360 will be avialable as open source project.
+        </p>
 
-        </div> <!-- about div-->
+</div> <!-- about div-->

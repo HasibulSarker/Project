@@ -51,7 +51,7 @@ body {
     text-align: center;
 }
 #container {
-    box-shadow: 3px 2px 8px 8px #b0c4de;
+    box-shadow: 0 0 14px 4px #b0c4de;
     font-family: 'Chakra Petch', sans-serif;
     text-align: justify;
     margin-top: 50px;
@@ -123,13 +123,18 @@ body {
     animation-duration: 1.5s;
     animation-timing-function: linear;
     animation-iteration-count: 1;
+    animation-delay: .5s;
 }
 @keyframes radious {
     0% {
         border-radius: 0;
+        opacity: 0;
+    }
+    95% {
+        border-radius: 50%;
     }
     100% {
-        border-radius: 50%;
+        opacity: 1;
     }
 }
 .lighttxt {
@@ -301,7 +306,7 @@ body {
         padding: 25px;
      }
     #container {
-        box-shadow: 3px 2px 8px 8px #61122f;
+        box-shadow: 0 0 14px 4px #61122f;
     }
 }
 
