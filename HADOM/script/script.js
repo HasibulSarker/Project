@@ -1,21 +1,10 @@
-//  Start Of JavaScript//
-
-document.querySelector('body').addEventListener("dblclick", function () {
-
-    var head = document.querySelector("head").innerHTML;
-
-    var newhead = '<link rel="stylesheet" href="css/style-old.css">';
-
-    head+=newhead;
-
-    document.querySelector("head").innerHTML = head;
-})
+//  Start Of JavaScript  //
 
 const a = "Data/about.txt";
 
-const b ="Posts/post.txt";
+const b = "Posts/post.txt";
 
-const c ="Posts/post2.txt";
+const c = "Posts/post2.txt";
 
 function getdata(link) {
 
@@ -30,12 +19,23 @@ function getdata(link) {
     xhr.onload = function () {
 
         const c = xhr.responseText;
-        
+
         const d = document.getElementById("container");
         d.innerHTML = c;
-        
+
     }
-    
+
 }
+
+document.querySelector('body').addEventListener("dblclick", function () {
+
+    let head = document.querySelector("head").innerHTML;
+
+    let newhead = '<link rel="stylesheet" href="css/style-old.css">';
+
+    head += newhead;
+
+    document.querySelector("head").innerHTML = head;
+})
 
 // End of Javascript //
