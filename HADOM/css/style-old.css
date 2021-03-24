@@ -3,18 +3,6 @@
 body {
     background-color: #61122f;
 }
-#header {
-    background-color: #ffff00;
-   
-}
-.navbar:hover {
-    background-color: #0000ff;
-    color: #ffffff;
-}
-.navbar:active {
-    background-color:  #0000ff;
-    color: #ffffff;
-}
 #navbardiv {
     background-color: #fffafa;
     border: none;
@@ -24,11 +12,7 @@ body {
     border: 2px solid #00ff00;;
     background-color: #61122f;
 }
-#container {
-    background-color: #00ffff;
-}
 .sect {
-    background-color: #ffe4c4;
     border:  3px solid #008000;
 }
 #container {
