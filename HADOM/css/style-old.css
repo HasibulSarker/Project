@@ -19,11 +19,9 @@ body {
     box-shadow: none;
 }
 #footer {
-    padding: 5px;
     background-color: #000000;
     border-top: 5px solid #fffafa;
     border-bottom: 5px solid #fffafa;
-    text-align: center;
     color: #0000ff;
 }
 
@@ -34,8 +32,6 @@ body {
         border: 3px double #008000;
     }
 }
-
-
 @media (min-width: 481px) {
      .sect {
         border: 3px solid #008000;
