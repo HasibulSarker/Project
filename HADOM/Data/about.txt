@@ -1,4 +1,4 @@
-<div class="center space about bigfont vanish">
+<div class="center space about bigfont motion-vanish">
     <h1 class="heading">
         About Us
     </h1>
